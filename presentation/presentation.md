@@ -72,7 +72,7 @@ style: |
 </div>
 
 Medkour Ibrahim 
-encadrant : Fouad ESSARAJ
+encadrant : ES-Fouad ESSARAJ
 
 ---
 
@@ -87,39 +87,35 @@ encadrant : Fouad ESSARAJ
 ## Contexte du projet
 
 ---
-
-## Objectif de formation (Solicode)
-
----
-
-## Cahier des charges
+## methodologie de travaille
 
 ---
+
+
+
 <!-- _class: image-only -->
 
 ## Scrum
 
-![Méthode Scrum](../rapport/SCRUM/scrum.png)
+![Méthode_Scrum](scrum.png)
 
 ---
 <!-- _class: image-only -->
 
 ## Processus 2TUP
 
-![Processus 2TUP](../rapport/2TUP/images.jpg)
+![Processus 2TUP](images.jpg)
 
 ---
 <!-- _class: image-only -->
 
 ## Design Thinking
 
-![Design Thinking](../rapport/design_thinking/design_thinking.jpg)
+![Design Thinking](design_thinking.jpg)
 
 ---
 
-## Planification
 
----
 
 ## Branche fonctionnelle
 
@@ -138,6 +134,7 @@ encadrant : Fouad ESSARAJ
 ---
 
 ## Diagramme de cas d'utilisation
+![cas_dUtilistion] (mermaid-diagram_cas.png)
 
 ---
 
@@ -154,45 +151,13 @@ encadrant : Fouad ESSARAJ
 
 ## Architecture
 
-**Présentation** → **Logique métier** → **Accès aux données**
 
-Navigateur · HTML / JavaScript
 
-↓ API HTTP / JSON
-
-PHP · Services · DAO
-
-↓
-
-Fichier JSON
 
 ---
 
-## Prototype musical
 
-- Genres · Artistes · Morceaux
-- Création · Consultation · Modification · Suppression
-- Statut · Brouillon ou publié
-- Couvertures · Fichiers audio
 
----
-
-## Relations des données
-
-- **Artiste** → plusieurs morceaux
-- **Genre** → plusieurs morceaux
-- **Morceau** → un artiste + un genre
-
----
-
-## Structure technique
-
-- **Frontend** · HTML · CSS / Tailwind · JavaScript
-- **Backend** · PHP · Contrôleurs · Services · DAO
-- **API** · REST
-- **Données** · MySQL / MariaDB · prototype JSON
-
----
 
 ## Diagramme de classes
   ![mermaid-diagram](mermaid-diagram.png)
@@ -204,12 +169,9 @@ Fichier JSON
 
 ---
 
-## Interfaces
+## Realisation
 
 ---
 
 ## Conclusion
 
-- Prototype CRUD fonctionnel
-- Base pour une plateforme musicale évolutive
-- Extensions possibles · authentification · upload audio · gestion complète
