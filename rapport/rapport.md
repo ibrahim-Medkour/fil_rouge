@@ -38,23 +38,6 @@ title: Plan du rapport
 
 # Contexte du projet
 
-## 2. FleetTrack — Fleet Management System
-
-**Projet Fil Rouge**
-
-A web-based fleet management application designed to manage vehicles, drivers, goods, and deliveries.
-
-**Main features:**
-- Fleet dashboard and statistics.
-- Vehicle management.
-- Driver management.
-- Goods and cargo type management.
-- Delivery dispatch and tracking.
-- Vehicle capacity verification.
-- Referential integrity protection.
-- Real-time search and filtering.
-- Responsive interface.
-
 # Cahier des charges
 
 # Méthodologie de travail
@@ -232,17 +215,6 @@ Dans le cadre de ce projet, plusieurs technologies modernes et complémentaires 
 - **Mermaid** : Outil permettant de générer des schémas et diagrammes à partir d'une syntaxe textuelle simple.
 - **PlantUML** : Solution utilisée pour concevoir les différents diagrammes UML nécessaires à l'analyse et à la documentation du système.
 
-## Technologies
-
-Both projects use web development technologies, with their respective implementations:
-
-- PHP
-- MySQL
-- PDO
-- HTML5
-- CSS3
-- JavaScript
-
 ## Architecture logicielle
 
 # Architecture du système
@@ -316,28 +288,32 @@ Le parcours d’une requête est le suivant :
 
 ## Prototype (fonctionnalités, classes)
 
-# Projet technique (Prototype CRUD)
+## Projet technique (Prototype)
 
-Avant de commencer le développement du projet principal, j'ai réalisé un projet technique servant de prototype : une application web de **gestion des tâches logicielles**, inspirée des workflows de développement, permettant de gérer les développeurs et de suivre les tâches qui leur sont attribuées.
+Avant de commencer le développement du projet principal, j'ai réalisé un projet technique sous forme de prototype : une application web de **gestion et de consultation d'un catalogue de films**, permettant d'organiser les films, de gérer leurs réalisateurs et de les classer selon leurs genres cinématographiques.
 
-La plateforme permet de créer et d'organiser les tâches, de les assigner aux développeurs et de suivre leur progression selon leur priorité, leur échéance et leur statut.
+La plateforme permet à l'administrateur d'ajouter des films, des réalisateurs et des genres. Les visiteurs peuvent consulter le catalogue depuis la page d'accueil et accéder aux principales informations de chaque film, notamment son titre, sa description, sa date de sortie, sa durée, son réalisateur et son genre.
 
-## Fonctionnalités Clés
+## Fonctionnalités clés
 
-- **Developer Management :** Gestion des développeurs.
-- **Task Management :** Création et attribution des tâches aux développeurs.
-- **Task Priorities and Deadlines :** Définition des priorités et des échéances des tâches.
-- **Task Status Management :** Suivi des tâches selon leur statut (En attente, En cours, Terminée).
-- **Task Tracking and Organization :** Suivi et organisation des tâches.
+- **Movie Management :** Gestion du catalogue de films et ajout de nouveaux films.
+- **Director Management :** Gestion des réalisateurs et de leurs informations.
+- **Film Genre Management :** Gestion des genres cinématographiques et classification des films.
+- **Movie Catalog :** Affichage et consultation des films disponibles depuis la page d'accueil.
+- **Movie Information :** Consultation des informations détaillées de chaque film, notamment son réalisateur et son genre.
 
 ## Classes principales du modèle
 
-- **Developer :** Représente un développeur pouvant se voir attribuer des tâches.
-- **Task :** Représente une tâche avec sa priorité, son échéance et son statut.
+Le modèle de données repose sur trois entités principales :
+
+- **Movie :** Représente un film avec son identifiant, son titre, sa description, sa date de sortie, sa durée, son réalisateur et son genre.
+- **Director :** Représente un réalisateur avec son identifiant, son prénom, son nom et sa nationalité.
+- **FilmGenre :** Représente un genre cinématographique avec son identifiant, son nom et sa description.
 
 ## Relations principales
 
-- **Developer ↔ Task :** Relation One-to-Many (un développeur peut se voir attribuer plusieurs tâches).
+- **Director ↔ Movie :** Relation One-to-Many (un réalisateur peut être associé à plusieurs films, tandis qu'un film est associé à un seul réalisateur).
+- **FilmGenre ↔ Movie :** Relation One-to-Many (un genre peut regrouper plusieurs films, tandis qu'un film est associé à un seul genre).
 
 # Conception
 
