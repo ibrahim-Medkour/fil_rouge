@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Plan du rapport
+title: Rapport
 ---
 
-# Rapport Planning
+# Rapport
 
 #### Table des matières
 
-- [Remerciement](#remerciement)
+- [Remerciements](#remerciements)
 - [Introduction](#introduction)
 - [Contexte du projet](#contexte-du-projet)
+- [Objectif de formation (Solicode)](#objectif-de-formation-solicode)
 - [Cahier des charges](#cahier-des-charges)
 - [Méthodologie de travail](#méthodologie-de-travail)
   - [Méthodologie Scrum](#méthodologie-scrum)
@@ -17,10 +18,10 @@ title: Plan du rapport
   - [Design Thinking](#design-thinking)
 - [Planification](#planification)
 - [Branche fonctionnelle](#branche-fonctionnelle)
-  - [Carte d'empathie](#carte-d'empathie)
+  - [Carte d'empathie](#carte-dempathie)
   - [Définition du problème](#définition-du-problème)
   - [Idéation](#idéation)
-  - [Diagramme de cas d'utilisation](#diagramme-de-cas-d'utilisation)
+  - [Diagramme de cas d'utilisation](#diagramme-de-cas-dutilisation)
 - [Branche technique](#branche-technique)
   - [Stack technologique](#stack-technologique)
   - [Architecture logicielle](#architecture-logicielle)
@@ -29,30 +30,36 @@ title: Plan du rapport
   - [Diagramme de classes](#diagramme-de-classes)
   - [Maquettes](#maquettes)
 - [Réalisation](#réalisation)
-- [Interfaces](#interfaces)
+  - [Interfaces](#interfaces)
 - [Conclusion](#conclusion)
 
-# Remerciement
+## Remerciements
 
-# Introduction
 
-# Contexte du projet
+## Introduction
 
-# Cahier des charges
 
-# Méthodologie de travail
+## Contexte du projet
 
-## Méthodologie Scrum
 
-# Méthode de travail
+## Objectif de formation (Solicode)
 
-![scrum](SCRUM/scrum.png)
 
-## La méthode SCRUM
+## Cahier des charges
+
+
+## Méthodologie de travail
+
+
+### Méthodologie Scrum
+
+#### Méthode de travail
+
+##### La méthode SCRUM
 
 La méthodologie Scrum est une méthodologie agile qui permet de gérer un projet de manière flexible et collaborative, en favorisant la livraison progressive de fonctionnalités. Elle repose sur l'itération, la priorisation des tâches et la communication régulière entre les membres de l'équipe. Dans le cadre de ce projet Promatch, nous avons organisé le travail selon les principes de Scrum, ce qui nous a permis de mieux planifier, suivre et livrer les différentes fonctionnalités de manière efficace.
 
-![Figure 3 : La méthode SCRUM](SCRUM/scrum.png)
+![Figure 3 : La méthode SCRUM](Méthodologie Scrum/scrum.png)
 
 *Figure 3 : La méthode SCRUM*
 
@@ -64,25 +71,19 @@ La méthodologie Scrum est une méthodologie agile qui permet de gérer un proje
 
 **Organisation du projet en sprints :**
 
-### Sprint 1
+###### Sprint 1
 
 -
 
-![scrum](SCRUM/scrum.png)
-
-### Sprint 2 :
+###### Sprint 2 :
 
 -
 
-![scrum](SCRUM/scrum.png)
+### Processus 2TUP
 
-## Processus 2TUP
+##### 2.3 2TUP
 
-## 2.3 2TUP
-
-![images](2TUP/images.jpg)
-
-### Définition
+###### Définition
 
 La méthode **2TUP** (*Two Tracks Unified Process*) est une méthode de
 développement logiciel agile et itérative. Elle peut être adaptée au contexte
@@ -107,15 +108,13 @@ de réalisation. Cette organisation permet de limiter les risques, de vérifier
 la cohérence entre les besoins métier et la solution technique, et de faire
 évoluer progressivement le produit.
 
-![images](2TUP/images.jpg)
-
-### Schéma
+###### Schéma
 
 Le schéma suivant présente le fonctionnement général de la méthode 2TUP.
 Les éléments entre crochets peuvent être remplacés par les informations
 propres à chaque projet.
 
-![schema](2TUP/images.jpg)
+![schema](Processus 2TUP/images.jpg)
 
 **Figure [numéro] : Processus 2TUP appliqué à [Nom du projet]**
 
@@ -125,20 +124,30 @@ techniques et aboutit à la définition de l'architecture et des technologies.
 La convergence des deux branches déclenche la phase de réalisation, qui
 comprend la conception, le codage, les tests, la recette et le déploiement.
 
-## Design Thinking
+###### Conclusion
 
-# Design thinking
+La méthode 2TUP fournit un cadre de travail structuré et adaptable pour la
+réalisation de **[Nom du projet]**. La séparation entre les branches
+fonctionnelle et technique facilite la compréhension des besoins et permet de
+prendre les décisions techniques au moment approprié.
+
+En réunissant ces deux branches dans une phase de réalisation progressive,
+la méthode favorise la maîtrise des risques, l'amélioration continue et
+l'alignement du produit final sur les besoins de **[utilisateurs ou
+organisation]**. Elle constitue ainsi une approche pertinente pour les
+projets dont les exigences fonctionnelles et les contraintes techniques
+doivent être analysées conjointement.
+
+### Design Thinking
 
 Ainsi, l’adoption de la méthode Scrum a permis d’assurer une organisation efficace du travail et une meilleure gestion du projet. Elle a contribué à améliorer la qualité des fonctionnalités développées et à garantir un déroulement structuré du projet ImmoSync.
 
-![design_thinking](design_thinking/design_thinking.jpg)
-
-## Design thinking
+##### Design thinking
 
 Le Design Thinking est une approche de résolution de problèmes centrée sur l’humain. Elle vise à comprendre en profondeur les besoins réels des utilisateurs afin de concevoir des solutions innovantes, utiles et adaptées. Cette méthode est largement utilisée dans les domaines du design, de la technologie, de l’éducation et de l’innovation pour répondre à des problématiques complexes.
 
 <div align="center">
-  <img src="./design_thinking.jpg" alt="Méthodologie Design Thinking" width="700" />
+  <img src="Design Thinking/design_thinking.jpg" alt="Méthodologie Design Thinking" width="700" />
 </div>
 
 *Figure : Méthodologie Design Thinking*
@@ -150,9 +159,7 @@ Le Design Thinking est particulièrement utilisé pour :
 - Favoriser la collaboration entre différentes équipes de travail ;
 - Résoudre des problèmes complexes ou mal définis de manière structurée.
 
-![design_thinking](design_thinking/design_thinking.jpg)
-
-## Les étapes du Design Thinking
+##### Les étapes du Design Thinking
 
 Le processus du Design Thinking se compose de plusieurs étapes essentielles :
 
@@ -164,31 +171,31 @@ Le processus du Design Thinking se compose de plusieurs étapes essentielles :
 
 Le Design Thinking est donc une méthode structurée et flexible qui permet de transformer une idée en solution concrète en mettant toujours l’utilisateur au centre du processus.
 
-![design_thinking](design_thinking/design_thinking.jpg)
+## Planification
 
-# Planification
 
-# Branche fonctionnelle
+## Branche fonctionnelle
 
-## Carte d'empathie
 
-## Définition du problème
+### Carte d'empathie
 
-## Idéation
 
-## Diagramme de cas d'utilisation
+### Définition du problème
 
-# Branche technique
 
-# Branche technique
+### Idéation
+
+
+### Diagramme de cas d'utilisation
+
+
+## Branche technique
 
 Dans cette section, nous présentons la branche technique de notre projet, qui consiste à décrire les choix technologiques, les outils et les architectures adoptés pour assurer le bon fonctionnement de l'application, tout en garantissant une solution performante, sécurisée et adaptée aux besoins identifiés.
 
 ---
 
-## Stack technologique
-
-## Choix technologiques
+#### Choix technologiques
 
 Dans le cadre de ce projet, plusieurs technologies modernes et complémentaires ont été sélectionnées pour garantir la performance, la maintenabilité, la sécurité et la rapidité de la plateforme de gestion de copropriété immobilière.
 
@@ -215,11 +222,44 @@ Dans le cadre de ce projet, plusieurs technologies modernes et complémentaires 
 - **Mermaid** : Outil permettant de générer des schémas et diagrammes à partir d'une syntaxe textuelle simple.
 - **PlantUML** : Solution utilisée pour concevoir les différents diagrammes UML nécessaires à l'analyse et à la documentation du système.
 
-## Architecture logicielle
+### Stack technologique
 
-# Architecture du système
+Dans cette section, nous présentons la branche technique de notre projet, qui consiste à décrire les choix technologiques, les outils et les architectures adoptés pour assurer le bon fonctionnement de l'application, tout en garantissant une solution performante, sécurisée et adaptée aux besoins identifiés.
 
-## Architecture MVC
+---
+
+##### Choix technologiques
+
+Dans le cadre de ce projet, plusieurs technologies modernes et complémentaires ont été sélectionnées pour garantir la performance, la maintenabilité, la sécurité et la rapidité de la plateforme de gestion de copropriété immobilière.
+
+###### Technologies Backend
+
+- **PHP 8.2+ et Laravel 12.0** : Ce duo technologique est utilisé pour développer le backend en architecture MVC, garantissant une base sécurisée, des performances accrues et un code structuré.
+- **Spatie Laravel Permission 7.4** : Bibliothèque pour la gestion professionnelle des rôles et des autorisations, garantissant un cloisonnement strict des accès.
+- **NativePHP** : Framework pour transformer l'application Laravel en application mobile (Android, iOS) pour les résidents.
+
+###### Technologies Frontend
+
+- **Blade Templates** : Moteur de rendu HTML, natif de Laravel, utilisé pour structurer l'interface utilisateur en composants réutilisables.
+- **Tailwind CSS** : Framework CSS utilitaire ultra-rapide, permettant de concevoir une interface sur mesure, moderne, responsive et compatible mode sombre.
+- **Alpine** : Framework JavaScript léger et réactif, utilisé pour les animations du frontend (barres de recherche, modales, menus déroulants).
+- **Preline** : Bibliothèque de composants UI basés sur Tailwind CSS, accélérant le développement avec des modèles prêts à l'emploi.
+- **Vite** : Outil de build moderne, optimisant la compilation des ressources CSS/JS pour un chargement de page ultra-rapide en production.
+
+###### Base de données
+
+- **MySQL** : Système de gestion de base de données relationnelle (SGBDR) fiable, utilisé pour stocker l'intégralité des données de l'application.
+
+###### Outils et utilitaires externes
+
+- **Mermaid** : Outil permettant de générer des schémas et diagrammes à partir d'une syntaxe textuelle simple.
+- **PlantUML** : Solution utilisée pour concevoir les différents diagrammes UML nécessaires à l'analyse et à la documentation du système.
+
+### Architecture logicielle
+
+#### Architecture du système
+
+##### Architecture MVC
 
 Le modèle MVC répartit une application en trois rôles :
 
@@ -241,7 +281,7 @@ _Figure 1 — Échange MVC : le contrôleur coordonne la vue et le modèle lors 
 
 Dans le projet, MVC sert de **repère de compréhension**, mais n’est pas appliqué strictement : l’interface HTML/JavaScript est côté navigateur, tandis que le point d’entrée PHP et les classes de traitement jouent les rôles de coordination. La classe `Genre` représente les données métier.
 
-## Architecture 3-tiers
+##### Architecture 3-tiers
 
 Cette architecture sépare l’application en couches qui communiquent de proche en proche :
 
@@ -263,7 +303,7 @@ flowchart TB
 
 _Figure 2 — Les trois tiers séparent l’interface, le traitement des opérations et le stockage._
 
-## Architecture globale
+##### Architecture globale
 
 Le projet permet de consulter et d’ajouter des genres. L’interface du navigateur communique avec une API PHP via `fetch`. Les données sont conservées dans un fichier JSON ; elles ne sont pas stockées dans une base de données relationnelle.
 
@@ -286,43 +326,63 @@ Le parcours d’une requête est le suivant :
 2. `api.php` transmet l’opération au traitement PHP, puis à la classe qui lit ou met à jour le fichier JSON.
 3. Le résultat est renvoyé au navigateur au format JSON ; l’interface affiche la liste actualisée.
 
-## Prototype (fonctionnalités, classes)
+### Prototype (fonctionnalités, classes)
 
-## Projet technique (Prototype)
+Le projet technique décrit dans les documents est une application web de
+gestion d’une plateforme musicale. Son objectif est de permettre à un
+administrateur de gérer les genres musicaux, les artistes et les morceaux.
+La version décrite sert de prototype CRUD.
 
-Avant de commencer le développement du projet principal, j'ai réalisé un projet technique sous forme de prototype : une application web de **gestion et de consultation d'un catalogue de films**, permettant d'organiser les films, de gérer leurs réalisateurs et de les classer selon leurs genres cinématographiques.
+#### Fonctionnalités clés
 
-La plateforme permet à l'administrateur d'ajouter des films, des réalisateurs et des genres. Les visiteurs peuvent consulter le catalogue depuis la page d'accueil et accéder aux principales informations de chaque film, notamment son titre, sa description, sa date de sortie, sa durée, son réalisateur et son genre.
+- **Gestion des genres** : ajouter, afficher, modifier et supprimer des
+  genres musicaux.
+- **Gestion des artistes** : ajouter des artistes avec leur nom et leur
+  image de profil.
+- **Gestion des morceaux** : enregistrer un titre, une couverture, un
+  fichier audio, son statut et sa date de publication.
+- **Association des données** : chaque morceau est lié à un artiste et à un
+  genre.
+- **Organisation du catalogue** : centraliser les musiques par genre et par
+  artiste.
 
-## Fonctionnalités clés
+#### Modèle de données principal
 
-- **Movie Management :** Gestion du catalogue de films et ajout de nouveaux films.
-- **Director Management :** Gestion des réalisateurs et de leurs informations.
-- **Film Genre Management :** Gestion des genres cinématographiques et classification des films.
-- **Movie Catalog :** Affichage et consultation des films disponibles depuis la page d'accueil.
-- **Movie Information :** Consultation des informations détaillées de chaque film, notamment son réalisateur et son genre.
+- **Artistes** : `id`, `ArtistName`, `dateOfCreation`, `ProfilePicture`.
+- **Genres** : `id`, `genreName`.
+- **Morceaux** : `id`, `SongTitle`, `dateOfCreation`, `ProfilePicture`,
+  `songFilePath`, `status`, `dateOfPublication`, `artist_id`, `genre_id`.
 
-## Classes principales du modèle
+Un artiste peut avoir plusieurs morceaux et un genre peut contenir plusieurs
+morceaux. Chaque morceau appartient à un seul artiste et à un seul genre.
 
-Le modèle de données repose sur trois entités principales :
+#### Structure technique décrite
 
-- **Movie :** Représente un film avec son identifiant, son titre, sa description, sa date de sortie, sa durée, son réalisateur et son genre.
-- **Director :** Représente un réalisateur avec son identifiant, son prénom, son nom et sa nationalité.
-- **FilmGenre :** Représente un genre cinématographique avec son identifiant, son nom et sa description.
+- **Frontend** : HTML, CSS/Tailwind CSS et JavaScript.
+- **Backend** : PHP, contrôleurs, services, DAO ou accès aux données, et API
+  REST simple.
+- **Base de données** : schéma SQL de référence pour MySQL/MariaDB ;
+  implémentation prototype possible via un fichier JSON.
 
-## Relations principales
+## Conception
 
-- **Director ↔ Movie :** Relation One-to-Many (un réalisateur peut être associé à plusieurs films, tandis qu'un film est associé à un seul réalisateur).
-- **FilmGenre ↔ Movie :** Relation One-to-Many (un genre peut regrouper plusieurs films, tandis qu'un film est associé à un seul genre).
 
-# Conception
+### Diagramme de classes
 
-## Diagramme de classes
 
-## Maquettes
+### Maquettes
 
-# Réalisation
 
-# Interfaces
+## Réalisation
 
-# Conclusion
+
+### Interfaces
+
+
+## Conclusion
+
+Ce prototype a permis de valider l’organisation entre la base de données, le
+backend et le frontend pour une application de gestion musicale. Il sert de
+base à une version plus avancée avec authentification, gestion complète des
+artistes, téléversement de fichiers audio et interface d’administration plus
+complète.
