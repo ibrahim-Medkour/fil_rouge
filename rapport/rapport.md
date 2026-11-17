@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Rapport du projet fil rouge - Covoiturage
+title: Plan du rapport
 ---
 
-# Rapport du projet fil rouge
+# Rapport Planning
 
-## Table des matières
+#### Table des matières
 
-- [Remerciements](#remerciements)
+- [Remerciement](#remerciement)
 - [Introduction](#introduction)
 - [Contexte du projet](#contexte-du-projet)
-- [Objectif de formation (Solicode)](#objectif-de-formation-solicode)
 - [Cahier des charges](#cahier-des-charges)
 - [Méthodologie de travail](#méthodologie-de-travail)
   - [Méthodologie Scrum](#méthodologie-scrum)
@@ -18,172 +17,336 @@ title: Rapport du projet fil rouge - Covoiturage
   - [Design Thinking](#design-thinking)
 - [Planification](#planification)
 - [Branche fonctionnelle](#branche-fonctionnelle)
-  - [Carte d'empathie](#carte-dempathie)
+  - [Carte d'empathie](#carte-d'empathie)
   - [Définition du problème](#définition-du-problème)
   - [Idéation](#idéation)
-  - [Diagramme de cas d'utilisation](#diagramme-de-cas-dutilisation)
+  - [Diagramme de cas d'utilisation](#diagramme-de-cas-d'utilisation)
 - [Branche technique](#branche-technique)
   - [Stack technologique](#stack-technologique)
   - [Architecture logicielle](#architecture-logicielle)
-  - [Prototype : fonctionnalités et classes](#prototype--fonctionnalités-et-classes)
+  - [Prototype (fonctionnalités, classes)](#prototype-fonctionnalités-classes)
 - [Conception](#conception)
   - [Diagramme de classes](#diagramme-de-classes)
   - [Maquettes](#maquettes)
 - [Réalisation](#réalisation)
-  - [Interfaces](#interfaces)
+- [Interfaces](#interfaces)
 - [Conclusion](#conclusion)
 
-## Remerciements
+# Remerciement
 
-## Introduction
+# Introduction
 
-## Contexte du projet
+# Contexte du projet
 
-Le projet fil rouge consiste à concevoir et développer une plateforme de covoiturage permettant de faciliter la mise en relation entre les personnes qui proposent des trajets et celles qui recherchent un moyen de transport partagé.
+## 2. FleetTrack — Fleet Management System
 
-La plateforme a pour objectif de proposer un espace permettant aux conducteurs de publier leurs trajets et aux passagers de rechercher des trajets correspondant à leurs besoins.
+**Projet Fil Rouge**
 
-Les détails du fonctionnement, les besoins des utilisateurs et les fonctionnalités définitives seront précisés au cours de la phase d'analyse.
+A web-based fleet management application designed to manage vehicles, drivers, goods, and deliveries.
 
-## Objectif de formation (Solicode)
+**Main features:**
+- Fleet dashboard and statistics.
+- Vehicle management.
+- Driver management.
+- Goods and cargo type management.
+- Delivery dispatch and tracking.
+- Vehicle capacity verification.
+- Referential integrity protection.
+- Real-time search and filtering.
+- Responsive interface.
 
-Ce projet s'inscrit dans le cadre de la formation SoliCode. Il constitue une occasion de mettre en pratique les connaissances acquises pendant la formation et de développer des compétences dans les différentes étapes du cycle de vie d'un projet informatique.
+# Cahier des charges
 
-Il permet notamment de travailler sur :
+# Méthodologie de travail
 
-- L'analyse des besoins et la compréhension du problème.
-- La conception fonctionnelle et technique.
-- La modélisation des données et des processus.
-- Le développement frontend et backend.
-- La gestion des données.
-- Les tests et la validation de l'application.
-- L'organisation du travail et la documentation technique.
+## Méthodologie Scrum
 
-## Cahier des charges
+# Méthode de travail
 
-### Présentation du besoin
+![scrum](SCRUM/scrum.png)
 
-### Problématique
+## La méthode SCRUM
 
-### Objectifs du projet
+La méthodologie Scrum est une méthodologie agile qui permet de gérer un projet de manière flexible et collaborative, en favorisant la livraison progressive de fonctionnalités. Elle repose sur l'itération, la priorisation des tâches et la communication régulière entre les membres de l'équipe. Dans le cadre de ce projet Promatch, nous avons organisé le travail selon les principes de Scrum, ce qui nous a permis de mieux planifier, suivre et livrer les différentes fonctionnalités de manière efficace.
 
-### Identification des acteurs
+![Figure 3 : La méthode SCRUM](SCRUM/scrum.png)
 
-### Besoins fonctionnels
+*Figure 3 : La méthode SCRUM*
 
-### Besoins non fonctionnels
+**Principe Scrum :**
 
-### Contraintes du projet
+- **Transparence** : visibilité complète sur les tâches, les objectifs et l'avancement du projet pour toute l'équipe.
+- **Inspection** : évaluation régulière à la fin de chaque sprint afin d'identifier les erreurs, les blocages et les axes d'amélioration.
+- **Adaptation** : ajustement du plan de travail en fonction des retours et des résultats obtenus lors des sprints.
 
-## Méthodologie de travail
+**Organisation du projet en sprints :**
 
-### Méthodologie Scrum
+### Sprint 1
 
-Scrum est une méthode agile qui organise le travail en cycles courts appelés sprints et favorise la livraison progressive des fonctionnalités.
+-
 
-Elle repose sur trois principes fondamentaux : 
+![scrum](SCRUM/scrum.png)
 
-- **Transparence** : rendre visibles les objectifs, les tâches et l'avancement du projet.
-- **Inspection** : examiner régulièrement le travail réalisé et identifier les éventuels problèmes.
-- **Adaptation** : ajuster les priorités et le plan de travail en fonction des résultats obtenus.
+### Sprint 2 :
 
-Cette méthodologie pourra être utilisée pour organiser le développement de la plateforme de covoiturage en plusieurs étapes.
+-
 
-![Schéma de la méthode Scrum](/images/scrum.png)
+![scrum](SCRUM/scrum.png)
 
-*Figure 1 — Schéma de la méthode Scrum.*
+## Processus 2TUP
 
-#### Sprint 1
+## 2.3 2TUP
 
-#### Sprint 2
+![images](2TUP/images.jpg)
 
-#### Sprint 3
+### Définition
 
-### Processus 2TUP
+La méthode **2TUP** (*Two Tracks Unified Process*) est une méthode de
+développement logiciel agile et itérative. Elle peut être adaptée au contexte
+de **[Nom du projet]**, à ses objectifs et aux besoins de **[utilisateurs ou
+organisation]**.
 
-2TUP (*Two Tracks Unified Process*) est une démarche de développement logiciel qui organise le travail autour de deux branches complémentaires menées en parallèle :
+Sa particularité repose sur une architecture en « Y » qui sépare
+distinctement deux axes de réflexion :
 
-- **Branche fonctionnelle** : analyse des besoins, identification des acteurs et définition des fonctionnalités de la plateforme.
-- **Branche technique** : étude des choix technologiques, de l'architecture logicielle et des contraintes techniques.
+- **la branche fonctionnelle**, consacrée à la compréhension des utilisateurs,
+  des processus et des besoins métier ;
+- **la branche technique**, consacrée à l'étude des contraintes techniques,
+  à la conception de l'architecture et au choix des technologies.
 
-Ces deux branches convergent vers la conception et la réalisation de la solution.
+La branche fonctionnelle permet de définir **[fonctionnalités ou besoins
+principaux]**, tandis que la branche technique permet de déterminer
+l'architecture et les outils nécessaires, tels que **[langages, frameworks,
+base de données ou services]**.
 
-Cette démarche permet de distinguer les besoins métier des choix techniques tout en assurant leur cohérence.
+Ces deux branches progressent en parallèle, puis se rejoignent dans une phase
+de réalisation. Cette organisation permet de limiter les risques, de vérifier
+la cohérence entre les besoins métier et la solution technique, et de faire
+évoluer progressivement le produit.
 
-![Schéma du processus 2TUP](/images/images.jpg)
+![images](2TUP/images.jpg)
 
-*Figure 2 — Schéma général du processus 2TUP.*
+### Schéma
 
-### Design Thinking
+Le schéma suivant présente le fonctionnement général de la méthode 2TUP.
+Les éléments entre crochets peuvent être remplacés par les informations
+propres à chaque projet.
 
-Le Design Thinking est une démarche de résolution de problèmes centrée sur les besoins des utilisateurs. Elle permet de mieux comprendre leurs difficultés et d'imaginer des solutions adaptées.
+![schema](2TUP/images.jpg)
 
-Ses principales étapes sont :
+**Figure [numéro] : Processus 2TUP appliqué à [Nom du projet]**
 
-1. **Empathie** : comprendre les besoins, les attentes et les difficultés des conducteurs et des passagers.
-2. **Définition** : formuler clairement le problème auquel la plateforme doit répondre.
-3. **Idéation** : proposer différentes solutions pour améliorer l'expérience du covoiturage.
-4. **Prototype** : créer une première représentation de la solution.
-5. **Test** : recueillir les retours des utilisateurs et améliorer la solution.
+La branche fonctionnelle part de la capture des besoins et aboutit à
+l'analyse fonctionnelle. En parallèle, la branche technique part des besoins
+techniques et aboutit à la définition de l'architecture et des technologies.
+La convergence des deux branches déclenche la phase de réalisation, qui
+comprend la conception, le codage, les tests, la recette et le déploiement.
 
-![Étapes du Design Thinking](/images/design_thinking.jpg)
+## Design Thinking
 
-*Figure 3 — Étapes du Design Thinking.*
+# Design thinking
 
-## Planification
+Ainsi, l’adoption de la méthode Scrum a permis d’assurer une organisation efficace du travail et une meilleure gestion du projet. Elle a contribué à améliorer la qualité des fonctionnalités développées et à garantir un déroulement structuré du projet ImmoSync.
 
-## Branche fonctionnelle
+![design_thinking](design_thinking/design_thinking.jpg)
 
-### Carte d'empathie
+## Design thinking
 
-### Définition du problème
+Le Design Thinking est une approche de résolution de problèmes centrée sur l’humain. Elle vise à comprendre en profondeur les besoins réels des utilisateurs afin de concevoir des solutions innovantes, utiles et adaptées. Cette méthode est largement utilisée dans les domaines du design, de la technologie, de l’éducation et de l’innovation pour répondre à des problématiques complexes.
 
-### Idéation
+<div align="center">
+  <img src="./design_thinking.jpg" alt="Méthodologie Design Thinking" width="700" />
+</div>
 
-### Diagramme de cas d'utilisation
+*Figure : Méthodologie Design Thinking*
 
-## Branche technique
+Le Design Thinking est particulièrement utilisé pour :
 
-### Stack technologique
+- Encourager la créativité et l’innovation dans la conception de solutions ;
+- Proposer des réponses réellement adaptées aux besoins des utilisateurs ;
+- Favoriser la collaboration entre différentes équipes de travail ;
+- Résoudre des problèmes complexes ou mal définis de manière structurée.
 
-Cette section présente les technologies utilisées pour concevoir et développer la plateforme de covoiturage.
+![design_thinking](design_thinking/design_thinking.jpg)
 
-Les choix technologiques seront définis en fonction des besoins du projet et des contraintes techniques.
+## Les étapes du Design Thinking
 
-- **Frontend** : à définir.
-- **Backend** : à définir.
-- **Base de données** : à définir.
-- **Outils de développement** : à définir.
-- **Outils de modélisation** : à définir.
+Le processus du Design Thinking se compose de plusieurs étapes essentielles :
 
-### Architecture logicielle
+- **Empathie (Empathize)** : cette étape consiste à comprendre l’utilisateur en l’observant, en l’interrogeant et en analysant son comportement. L’objectif est d’identifier ses besoins, ses attentes et ses difficultés réelles.
+- **Définition du problème (Define)** : elle permet de regrouper les informations collectées afin de formuler un problème clair et centré sur l’utilisateur, souvent exprimé sous forme de question comme : « Comment pourrions-nous améliorer… ? »
+- **Idéation (Ideate)** : cette phase consiste à générer un maximum d’idées possibles sans jugement, en utilisant des techniques comme le brainstorming ou le mind mapping afin de stimuler la créativité.
+- **Prototype** : elle consiste à créer une version simplifiée de la solution proposée (maquette, interface ou modèle) afin de tester rapidement les idées.
+- **Test** : cette dernière étape permet de tester le prototype auprès des utilisateurs, de recueillir leurs retours et d’améliorer la solution en fonction des résultats obtenus.
 
-Cette section décrit l'organisation technique de la plateforme de covoiturage et les différentes parties qui composent l'application.
+Le Design Thinking est donc une méthode structurée et flexible qui permet de transformer une idée en solution concrète en mettant toujours l’utilisateur au centre du processus.
 
-Elle présentera notamment :
+![design_thinking](design_thinking/design_thinking.jpg)
 
-- L'organisation du frontend et du backend.
-- La communication entre les différentes couches de l'application.
-- La gestion des données.
-- La structure des dossiers et des fichiers.
-- Les responsabilités des différentes classes et composants.
+# Planification
 
-L'architecture définitive sera documentée après les choix de conception technique.
+# Branche fonctionnelle
 
-### Prototype : fonctionnalités et classes
+## Carte d'empathie
 
-Cette section présentera le prototype de la plateforme de covoiturage, ses principales fonctionnalités et les classes nécessaires à son fonctionnement.
+## Définition du problème
 
-Les éléments seront ajoutés après la définition du modèle métier et la réalisation du prototype.
+## Idéation
 
-## Conception
+## Diagramme de cas d'utilisation
 
-### Diagramme de classes
+# Branche technique
 
-### Maquettes
+# Branche technique
 
-## Réalisation
+Dans cette section, nous présentons la branche technique de notre projet, qui consiste à décrire les choix technologiques, les outils et les architectures adoptés pour assurer le bon fonctionnement de l'application, tout en garantissant une solution performante, sécurisée et adaptée aux besoins identifiés.
 
-### Interfaces
+---
 
-## Conclusion
+## Stack technologique
+
+## Choix technologiques
+
+Dans le cadre de ce projet, plusieurs technologies modernes et complémentaires ont été sélectionnées pour garantir la performance, la maintenabilité, la sécurité et la rapidité de la plateforme de gestion de copropriété immobilière.
+
+### Technologies Backend
+
+- **PHP 8.2+ et Laravel 12.0** : Ce duo technologique est utilisé pour développer le backend en architecture MVC, garantissant une base sécurisée, des performances accrues et un code structuré.
+- **Spatie Laravel Permission 7.4** : Bibliothèque pour la gestion professionnelle des rôles et des autorisations, garantissant un cloisonnement strict des accès.
+- **NativePHP** : Framework pour transformer l'application Laravel en application mobile (Android, iOS) pour les résidents.
+
+### Technologies Frontend
+
+- **Blade Templates** : Moteur de rendu HTML, natif de Laravel, utilisé pour structurer l'interface utilisateur en composants réutilisables.
+- **Tailwind CSS** : Framework CSS utilitaire ultra-rapide, permettant de concevoir une interface sur mesure, moderne, responsive et compatible mode sombre.
+- **Alpine** : Framework JavaScript léger et réactif, utilisé pour les animations du frontend (barres de recherche, modales, menus déroulants).
+- **Preline** : Bibliothèque de composants UI basés sur Tailwind CSS, accélérant le développement avec des modèles prêts à l'emploi.
+- **Vite** : Outil de build moderne, optimisant la compilation des ressources CSS/JS pour un chargement de page ultra-rapide en production.
+
+### Base de données
+
+- **MySQL** : Système de gestion de base de données relationnelle (SGBDR) fiable, utilisé pour stocker l'intégralité des données de l'application.
+
+### Outils et utilitaires externes
+
+- **Mermaid** : Outil permettant de générer des schémas et diagrammes à partir d'une syntaxe textuelle simple.
+- **PlantUML** : Solution utilisée pour concevoir les différents diagrammes UML nécessaires à l'analyse et à la documentation du système.
+
+## Technologies
+
+Both projects use web development technologies, with their respective implementations:
+
+- PHP
+- MySQL
+- PDO
+- HTML5
+- CSS3
+- JavaScript
+
+## Architecture logicielle
+
+# Architecture du système
+
+## Architecture MVC
+
+Le modèle MVC répartit une application en trois rôles :
+
+- **Modèle** : représente les données et les règles qui leur sont liées.
+- **Vue** : affiche les informations et reçoit les actions de l’utilisateur.
+- **Contrôleur** : reçoit une action, sollicite le modèle et transmet le résultat à la vue.
+
+```mermaid
+flowchart LR
+    U[Utilisateur] -->|action| V[Vue]
+    V -->|requête| C[Contrôleur]
+    C -->|lecture ou modification| M[Modèle]
+    M -->|données| C
+    C -->|résultat à afficher| V
+    V -->|affichage| U
+```
+
+_Figure 1 — Échange MVC : le contrôleur coordonne la vue et le modèle lors d’une requête._
+
+Dans le projet, MVC sert de **repère de compréhension**, mais n’est pas appliqué strictement : l’interface HTML/JavaScript est côté navigateur, tandis que le point d’entrée PHP et les classes de traitement jouent les rôles de coordination. La classe `Genre` représente les données métier.
+
+## Architecture 3-tiers
+
+Cette architecture sépare l’application en couches qui communiquent de proche en proche :
+
+- **Présentation** : interface HTML/JavaScript ; envoie les requêtes et affiche les réponses.
+- **Logique métier** : traite les opérations demandées par l’utilisateur.
+- **Accès aux données** : lit et écrit les données dans leur support de stockage.
+
+```mermaid
+flowchart TB
+    U[Utilisateur] --> P[Présentation<br/>HTML / JavaScript]
+    P -->|requête HTTP / JSON| L[Logique métier<br/>PHP]
+    L --> A[Accès aux données<br/>GestionGenre ou DAO]
+    A --> D[(Fichier JSON)]
+    D -->|données| A
+    A -->|résultat| L
+    L -->|réponse JSON| P
+    P -->|affichage| U
+```
+
+_Figure 2 — Les trois tiers séparent l’interface, le traitement des opérations et le stockage._
+
+## Architecture globale
+
+Le projet permet de consulter et d’ajouter des genres. L’interface du navigateur communique avec une API PHP via `fetch`. Les données sont conservées dans un fichier JSON ; elles ne sont pas stockées dans une base de données relationnelle.
+
+```mermaid
+flowchart LR
+    U[Utilisateur] <-->|interface| UI[Navigateur<br/>index.html et app.js]
+    UI -->|GET / POST<br/>JSON| API[API PHP<br/>backend/api/api.php]
+    API --> T[Traitement PHP<br/>contrôleur ou service]
+    T --> A[Accès aux données<br/>GestionGenre ou GenreDAO]
+    A -->|crée des objets| G[Modèle Genre]
+    A <-->|lecture / écriture| D[(backend/data<br/>fichier JSON des genres)]
+    API -->|réponse JSON| UI
+```
+
+_Figure 3 — Architecture commune aux versions du projet ; les noms des classes varient selon la version._
+
+Le parcours d’une requête est le suivant :
+
+1. `app.js` envoie une requête **GET** pour afficher les genres ou **POST** pour en ajouter un.
+2. `api.php` transmet l’opération au traitement PHP, puis à la classe qui lit ou met à jour le fichier JSON.
+3. Le résultat est renvoyé au navigateur au format JSON ; l’interface affiche la liste actualisée.
+
+## Prototype (fonctionnalités, classes)
+
+# Projet technique (Prototype CRUD)
+
+Avant de commencer le développement du projet principal, j'ai réalisé un projet technique servant de prototype : une application web de **gestion des tâches logicielles**, inspirée des workflows de développement, permettant de gérer les développeurs et de suivre les tâches qui leur sont attribuées.
+
+La plateforme permet de créer et d'organiser les tâches, de les assigner aux développeurs et de suivre leur progression selon leur priorité, leur échéance et leur statut.
+
+## Fonctionnalités Clés
+
+- **Developer Management :** Gestion des développeurs.
+- **Task Management :** Création et attribution des tâches aux développeurs.
+- **Task Priorities and Deadlines :** Définition des priorités et des échéances des tâches.
+- **Task Status Management :** Suivi des tâches selon leur statut (En attente, En cours, Terminée).
+- **Task Tracking and Organization :** Suivi et organisation des tâches.
+
+## Classes principales du modèle
+
+- **Developer :** Représente un développeur pouvant se voir attribuer des tâches.
+- **Task :** Représente une tâche avec sa priorité, son échéance et son statut.
+
+## Relations principales
+
+- **Developer ↔ Task :** Relation One-to-Many (un développeur peut se voir attribuer plusieurs tâches).
+
+# Conception
+
+## Diagramme de classes
+
+## Maquettes
+
+# Réalisation
+
+# Interfaces
+
+# Conclusion
