@@ -134,7 +134,7 @@ encadrant : ES-Fouad ESSARAJ
 ---
 
 ## Diagramme de cas d'utilisation
-![cas_dUtilistion] (mermaid-diagram_cas.png)
+![cas_dUtilistion](mermaid.png)
 
 ---
 
@@ -151,6 +151,7 @@ encadrant : ES-Fouad ESSARAJ
 
 ## Architecture
 
+  ![mermaid-diagram](image2.png)
 
 
 
