@@ -87,7 +87,7 @@ encadrant : ES-Fouad ESSARAJ
 ## Contexte du projet
 
 ---
-## methodologie de travaille
+## methode de travaille
 
 ---
 
